@@ -45,7 +45,7 @@ public class create_metal implements ModInitializer {
     public static BlockItem Tin_Deep_Ore_Item;
 
     static {
-        Tin_Deep_Ore_Item = new BlockItem(Tin_Ore_Block, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+        Tin_Deep_Ore_Item = new BlockItem(Tin_Deep_Ore_Block, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
     }
     public static Block Tin_Block;
 
@@ -55,7 +55,7 @@ public class create_metal implements ModInitializer {
     public static BlockItem Tin_Block_Item;
 
     static {
-        Tin_Block_Item = new BlockItem(Tin_Ore_Block, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+        Tin_Block_Item = new BlockItem(Tin_Block, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
     }
     @Override
     public void onInitialize(){
