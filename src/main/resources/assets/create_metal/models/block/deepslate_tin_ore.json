@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "texture": {
-    "all": "create_metal:block/deepslate_tin_ore"
-  }
-}
