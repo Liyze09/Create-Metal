@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "texture": {
+    "all": "create_metal:block/raw_tin_block"
+  }
+}
