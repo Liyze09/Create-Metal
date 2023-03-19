@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copper_ingot",
+  "ingredients": [
+    {
+      "item": "create_metal:bronze_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "create_metal:bronze_ingot"
+  }
+}

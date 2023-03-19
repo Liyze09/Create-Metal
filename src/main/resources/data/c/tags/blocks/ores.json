@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_metal:tin_ore",
+    "create_metal:deepslate_tin_ore"
+  ]
+}

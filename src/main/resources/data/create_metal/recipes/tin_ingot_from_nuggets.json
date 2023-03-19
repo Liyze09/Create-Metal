@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tin_ingot",
+  "key": {
+    "#": {
+      "item": "create_metal:tin_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "create_metal:tin_ingot"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "tin_ingot",
+  "ingredient": {
+    "item": "create_metal:tin_ore"
+  },
+  "result": "create_metal:tin_ingot"
+}
