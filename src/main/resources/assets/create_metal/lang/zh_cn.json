@@ -12,11 +12,16 @@
   "item.create_metal.deepslate_tin_ore": "深层锌矿石",
   "block.create_metal.deepslate_tin_ore": "深层锌矿石",
 
-  "item.create_metal.raw_tin_block": "Raw Tin Block",
-  "block.create_metal.raw_tin_block": "Raw Tin Block",
+  "item.create_metal.raw_tin_block": "粗锌块",
+  "block.create_metal.raw_tin_block": "粗锌块",
 
-  "item.create_metal.bronze_ingot": "Bronze Ingot",
+  "item.create_metal.bronze_ingot": "青铜锭",
 
-  "item.create_metal.bronze_block": "Bronze Block",
-  "block.create_metal.bronze_block": "Bronze Block"
+  "item.create_metal.bronze_block": "青铜块",
+  "block.create_metal.bronze_block": "青铜块",
+
+  "item.create_metal.steel_ingot":"钢锭",
+
+  "item.create_metal.steel_block": "钢块",
+  "block.create_metal.steel_block": "钢块"
 }
