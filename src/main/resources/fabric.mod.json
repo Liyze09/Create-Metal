@@ -13,7 +13,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.liyze.create_metal.create_metal"
+      "net.liyze.createmetal.create_metal"
     ]
   },
   "mixins": [
