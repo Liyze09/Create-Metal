@@ -23,7 +23,6 @@ import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
 import net.minecraft.world.gen.placementmodifier.SquarePlacementModifier;
 
 import java.util.Arrays;
-@SuppressWarnings("unused")
 public class CreateMetal implements ModInitializer {
     //Item Classes
     //Tin
