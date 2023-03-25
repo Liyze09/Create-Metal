@@ -27,7 +27,7 @@ import net.minecraft.world.gen.placementmodifier.SquarePlacementModifier;
 import java.util.Arrays;
 
 public class CreateMetal implements ModInitializer {
-    //Item Classes
+    //Items
     //Tin
     public static final Item TIN_INGOT;
     static {
@@ -51,7 +51,7 @@ public class CreateMetal implements ModInitializer {
     static {
         STEEL_INGOT = new Item(new FabricItemSettings().group(ItemGroup.MISC).fireproof());
     }
-    //Block Classes
+    //Blocks
     //Steel
     public static final Block STEEL_BLOCK;
     static {
