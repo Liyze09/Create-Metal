@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "c:steel_blocks"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "create_metal:steel_ingot"
+    }
+  ]
+}

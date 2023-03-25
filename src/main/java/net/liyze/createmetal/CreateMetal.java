@@ -1,4 +1,6 @@
 package net.liyze.createmetal;
+//First Mod
+
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
@@ -42,32 +44,32 @@ public class CreateMetal implements ModInitializer {
     //Steel
     public  static final Item STEEL_INGOT;
     static {
-        STEEL_INGOT = new Item(new FabricItemSettings().group(ItemGroup.MISC));}
+        STEEL_INGOT = new Item(new FabricItemSettings().group(ItemGroup.MISC).fireproof());}
     //Block Classes
     //Steel
     public static final Block STEEL_BLOCK;
     static {
-        STEEL_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(4.0F, 6.0F).sounds(BlockSoundGroup.METAL));}
+        STEEL_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(6.0F, 10.0F).sounds(BlockSoundGroup.METAL));}
     public static final BlockItem STEEL_BLOCK_ITEM;
     static {
-        STEEL_BLOCK_ITEM = new BlockItem(STEEL_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));}
+        STEEL_BLOCK_ITEM = new BlockItem(STEEL_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS).fireproof());}
     //Bronze
     public static final Block BRONZE_BLOCK;
     static {
-        BRONZE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(3.0F, 6.0F).sounds(BlockSoundGroup.METAL));}
+        BRONZE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(4.0F, 6.0F).sounds(BlockSoundGroup.METAL));}
     public static final BlockItem BRONZE_BLOCK_ITEM;
     static {
         BRONZE_BLOCK_ITEM = new BlockItem(BRONZE_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));}
     //Tin
     public static final Block TIN_ORE_BLOCK;
     static {
-        TIN_ORE_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE));}
+        TIN_ORE_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0F, 3.0F).sounds(BlockSoundGroup.STONE));}
     public static final BlockItem TIN_ORE_ITEM;
     static {
         TIN_ORE_ITEM = new BlockItem(TIN_ORE_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));}
     public static final Block TIN_DEEP_ORE;
     static {
-        TIN_DEEP_ORE = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0F, 3.0F));}
+        TIN_DEEP_ORE = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE));}
     public static final BlockItem TIN_DEEP_ORE_ITEM;
     static {
         TIN_DEEP_ORE_ITEM = new BlockItem(TIN_DEEP_ORE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));}
