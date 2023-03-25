@@ -1,5 +1,7 @@
 {
-    "variants": {
-      "": { "model": "create_metal:block/steel_block" }
+  "variants": {
+    "": {
+      "model": "create_metal:block/steel_block"
     }
   }
+}

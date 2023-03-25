@@ -1,5 +1,7 @@
 {
-    "variants": {
-      "": { "model": "create_metal:block/bronze_block" }
+  "variants": {
+    "": {
+      "model": "create_metal:block/bronze_block"
     }
   }
+}

@@ -1,5 +1,7 @@
 {
-    "variants": {
-      "": { "model": "create_metal:block/raw_tin_block" }
+  "variants": {
+    "": {
+      "model": "create_metal:block/raw_tin_block"
     }
   }
+}

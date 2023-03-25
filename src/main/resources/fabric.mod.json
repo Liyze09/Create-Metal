@@ -4,7 +4,9 @@
   "version": "0.1",
   "name": "Create Metal",
   "description": "",
-  "authors": ["Liyze"],
+  "authors": [
+    "Liyze"
+  ],
   "contact": {
     "repo": "https://github.com/Liyze09/Create-Metal",
     "issues": "https://github.com/Liyze09/Create-Metal/issues",

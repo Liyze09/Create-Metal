@@ -1,5 +1,7 @@
 {
-    "variants": {
-      "": { "model": "create_metal:block/tin_ore" }
+  "variants": {
+    "": {
+      "model": "create_metal:block/tin_ore"
     }
   }
+}
