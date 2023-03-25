@@ -132,64 +132,64 @@ public class CreateMetal implements ModInitializer {
         //Tin
         //Tin Block
         Registry.register(Registry.BLOCK,new Identifier(
-                "createmetal","tin_block"), TIN_BLOCK);
+                "create_metal","tin_block"), TIN_BLOCK);
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","tin_block"), TIN_BLOCK_ITEM);
+                "create_metal","tin_block"), TIN_BLOCK_ITEM);
         //Raw Tin Block
         Registry.register(Registry.BLOCK,new Identifier(
-                "createmetal","raw_tin_block"), RAW_TIN_BLOCK);
+                "create_metal","raw_tin_block"), RAW_TIN_BLOCK);
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","raw_tin_block"), RAW_TIN_BLOCK_ITEM);
+                "create_metal","raw_tin_block"), RAW_TIN_BLOCK_ITEM);
         //Tin Ore
         Registry.register(Registry.BLOCK,new Identifier(
-                "createmetal","tin_ore"), TIN_ORE_BLOCK);
+                "create_metal","tin_ore"), TIN_ORE_BLOCK);
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","tin_ore"), TIN_ORE_ITEM);
+                "create_metal","tin_ore"), TIN_ORE_ITEM);
         //Tin Deepslate Ore
         Registry.register(Registry.BLOCK,new Identifier(
-                "createmetal","deepslate_tin_ore"), TIN_DEEP_ORE);
+                "create_metal","deepslate_tin_ore"), TIN_DEEP_ORE);
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","deepslate_tin_ore"), TIN_DEEP_ORE_ITEM);
+                "create_metal","deepslate_tin_ore"), TIN_DEEP_ORE_ITEM);
         //Tin Items
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","tin_ingot"), TIN_INGOT);
+                "create_metal","tin_ingot"), TIN_INGOT);
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","raw_tin"), RAW_TIN);
+                "create_metal","raw_tin"), RAW_TIN);
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","tin_nugget"), TIN_NUGGET);
+                "create_metal","tin_nugget"), TIN_NUGGET);
         //Bronze
         //Bronze Items
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","bronze_ingot"), BRONZE_INGOT);
+                "create_metal","bronze_ingot"), BRONZE_INGOT);
         //Bronze Block
         Registry.register(Registry.BLOCK,new Identifier(
-                "createmetal","bronze_block"), BRONZE_BLOCK);
+                "create_metal","bronze_block"), BRONZE_BLOCK);
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","bronze_block"), BRONZE_BLOCK_ITEM);
+                "create_metal","bronze_block"), BRONZE_BLOCK_ITEM);
         //Steel Item
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","steel_ingot"), STEEL_INGOT);
+                "create_metal","steel_ingot"), STEEL_INGOT);
         //Steel Block
         Registry.register(Registry.BLOCK,new Identifier(
-                "createmetal","steel_block"), STEEL_BLOCK);
+                "create_metal","steel_block"), STEEL_BLOCK);
         Registry.register(Registry.ITEM,new Identifier(
-                "createmetal","steel_block"), STEEL_BLOCK_ITEM);
+                "create_metal","steel_block"), STEEL_BLOCK_ITEM);
         //Worldgen
         //Tin Ores
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(
-                "createmetal", "tin_ore"), OVERWORLD_TIN_ORE_CONFIGURED_FEATURE);
+                "create_metal", "tin_ore"), OVERWORLD_TIN_ORE_CONFIGURED_FEATURE);
         Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(
-                "createmetal", "tin_ore"), OVERWORLD_TIN_ORE_PLACED_FEATURE);
+                "create_metal", "tin_ore"), OVERWORLD_TIN_ORE_PLACED_FEATURE);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(
-                "createmetal", "tin_ore")));
+                "create_metal", "tin_ore")));
         //Tin Deepslate Ores
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(
-                "createmetal", "deepslate_tin_ore"), OVERWORLD_DEEP_TIN_ORE_CONFIGURED_FEATURE);
+                "create_metal", "deepslate_tin_ore"), OVERWORLD_DEEP_TIN_ORE_CONFIGURED_FEATURE);
         Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(
-                "createmetal", "deepslate_tin_ore"), OVERWORLD_DEEP_TIN_ORE_PLACED_FEATURE);
+                "create_metal", "deepslate_tin_ore"), OVERWORLD_DEEP_TIN_ORE_PLACED_FEATURE);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(
-                "createmetal", "deepslate_tin_ore")));
+                "create_metal", "deepslate_tin_ore")));
     }
 }
