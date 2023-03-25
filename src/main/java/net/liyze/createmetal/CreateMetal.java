@@ -1,4 +1,7 @@
-//First Mod
+/*First Mod
+*by Liyze
+* CREATE-METAL
+*/
 package net.liyze.createmetal;
 
 import net.fabricmc.api.ModInitializer;
@@ -187,4 +190,6 @@ public class CreateMetal implements ModInitializer {
                 "createmetal", "deepslate_tin_ore"), OVERWORLD_DEEP_TIN_ORE_PLACED_FEATURE);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(
-                "createmetal", "deepslate_tin_ore")));}}
+                "createmetal", "deepslate_tin_ore")));
+    }
+}
