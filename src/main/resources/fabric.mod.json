@@ -1,12 +1,19 @@
 {
   "schemaVersion": 1,
   "id": "create_metal",
-  "version": "0.1-Beta",
+  "version": "0.1",
   "name": "Create Metal",
   "description": "",
-  "authors": ["Liyze"],
+  "authors": [{
+    "name": "Liyze",
+    "contact": "a52990419@outlook.com"
+  }
+  ],
   "contact": {
-    "repo": "https://github.com/Liyze09/Create-Metal"
+    "repo": "https://github.com/Liyze09/Create-Metal",
+    "issues": "https://github.com/Liyze09/Create-Metal/issues",
+    "sources": "https://github.com/Liyze09/Create-Metal",
+    "email": "a52990419@outlook.com"
   },
   "license": "GNU GPLv3",
   "icon": "assets/create_metal/icon.png",
@@ -23,5 +30,8 @@
     "fabricloader": ">=0.14.11",
     "fabric": "*",
     "minecraft": "1.19.2"
+  },
+  "recommends": {
+    "create": "*"
   }
 }
