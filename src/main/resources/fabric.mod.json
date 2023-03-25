@@ -20,7 +20,7 @@
     "create_metal.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.17",
+    "fabricloader": ">=0.14.11",
     "fabric": "*",
     "minecraft": "1.19.2"
   }
