@@ -4,11 +4,7 @@
   "version": "0.1",
   "name": "Create Metal",
   "description": "",
-  "authors": [{
-    "name": "Liyze",
-    "contact": "a52990419@outlook.com"
-  }
-  ],
+  "authors": ["Liyze"],
   "contact": {
     "repo": "https://github.com/Liyze09/Create-Metal",
     "issues": "https://github.com/Liyze09/Create-Metal/issues",
@@ -31,8 +27,5 @@
     "fabricloader": ">=0.14.11",
     "fabric": "*",
     "minecraft": "1.19.2"
-  },
-  "recommends": {
-    "create": "*"
   }
 }
