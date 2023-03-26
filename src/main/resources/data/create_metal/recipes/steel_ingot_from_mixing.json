@@ -6,7 +6,7 @@
       "tag": "minecraft:coals"
     },
     {
-      "tag": "c:steel_blocks"
+      "item": "minecraft:iron_ingot"
     }
   ],
   "results": [
