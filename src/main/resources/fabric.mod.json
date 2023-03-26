@@ -14,7 +14,7 @@
     "email": "a52990419@outlook.com",
     "homepage": "https://modrinth.com/mod/create-metal"
   },
-  "license": "GNU GPLv3",
+  "license": "MIT License",
   "icon": "assets/create_metal/icon.png",
   "environment": "*",
   "entrypoints": {
