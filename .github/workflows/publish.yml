@@ -31,7 +31,7 @@ jobs:
           distribution: "temurin"
           java-version: 17
 
-      - name: run_gradle_wapper
+      - name: run_gradle_wrapper
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
 
