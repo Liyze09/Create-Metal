@@ -32,6 +32,7 @@ import java.util.Arrays;
 public class CreateMetal implements ModInitializer {
     //Items
     //Tin
+    public static final String ID = "create_metal";
     public static final Item TIN_INGOT;
 
     static {
@@ -152,7 +153,7 @@ public class CreateMetal implements ModInitializer {
 
     static {
         OVERWORLD_TIN_ORE_PLACED_FEATURE = new PlacedFeature(RegistryEntry.of(OVERWORLD_TIN_ORE_CONFIGURED_FEATURE),
-                Arrays.asList(CountPlacementModifier.of(20), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(128))));
+                Arrays.asList(CountPlacementModifier.of(40), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(128))));
     }
 
     //Deepslate Tin Ore
@@ -166,7 +167,7 @@ public class CreateMetal implements ModInitializer {
 
     static {
         OVERWORLD_DEEP_TIN_ORE_PLACED_FEATURE = new PlacedFeature(RegistryEntry.of(OVERWORLD_DEEP_TIN_ORE_CONFIGURED_FEATURE),
-                Arrays.asList(CountPlacementModifier.of(20), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(0))));
+                Arrays.asList(CountPlacementModifier.of(32), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(0))));
     }
 
     @Override
