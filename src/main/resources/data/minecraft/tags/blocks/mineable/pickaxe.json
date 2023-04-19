@@ -5,6 +5,7 @@
     "create_metal:tin_block",
     "create_metal:tin_ore",
     "create_metal:deepslate_tin_ore",
-    "create_metal:bronze_block"
+    "create_metal:bronze_block",
+    "create_metal:steel_block"
   ]
 }
