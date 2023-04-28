@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#c:tin_nuggets"
+    "create_metal:raw_tin"
   ]
 }
