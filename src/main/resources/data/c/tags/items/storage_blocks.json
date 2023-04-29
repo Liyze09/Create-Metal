@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "create_metal:raw_tin_block",
-    "create_metal:tin_block",
-    "create_metal:bronze_block",
-    "create_metal:steel_block"
+    "#c:raw_tin_blocks",
+    "#c:tin_blocks",
+    "#c:bronze_blocks",
+    "#c:steel_blocks"
   ]
 }

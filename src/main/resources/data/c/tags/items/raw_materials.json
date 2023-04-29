@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "create_metal:raw_tin"
+    "#c:raw_tin_materials"
   ]
 }

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "create_metal:bronze_ingot",
-    "create_metal:steel_ingot",
-    "create_metal:tin_ingot"
+    "#c:bronze_ingots",
+    "#c:steel_ingots",
+    "#c:tin_ingots"
   ]
 }
