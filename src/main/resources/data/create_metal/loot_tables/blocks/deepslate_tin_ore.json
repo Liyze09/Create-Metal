@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "create_metal:tin_ore"
+              "name": "create_metal:deepslate_tin_ore"
             },
             {
               "type": "minecraft:item",
