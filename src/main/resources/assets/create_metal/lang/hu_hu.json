@@ -1,0 +1,19 @@
+{
+  "item.create_metal.tin_ingot": "Ónrúd",
+  "item.create_metal.raw_tin": "Nyersón",
+  "item.create_metal.tin_nugget": "Ónrög",
+  "item.create_metal.tin_ore": "Ónérc",
+  "block.create_metal.tin_ore": "Ónérc",
+  "item.create_metal.tin_block": "Ónblokk",
+  "block.create_metal.tin_block": "Ónblokk",
+  "item.create_metal.deepslate_tin_ore": "Ónérc mélypalában",
+  "block.create_metal.deepslate_tin_ore": "Ónérc mélypalában",
+  "item.create_metal.raw_tin_block": "Nyersónblokk",
+  "block.create_metal.raw_tin_block": "Nyersónblokk",
+  "item.create_metal.bronze_ingot": "Bronzrúd",
+  "item.create_metal.bronze_block": "Bronblokk",
+  "block.create_metal.bronze_block": "Bronblokk",
+  "item.create_metal.steel_ingot": "Acélrúd",
+  "item.create_metal.steel_block": "Acélblokk",
+  "block.create_metal.steel_block": "Acélblokk"
+}
