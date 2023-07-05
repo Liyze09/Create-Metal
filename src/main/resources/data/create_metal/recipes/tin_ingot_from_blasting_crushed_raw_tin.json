@@ -4,7 +4,7 @@
   "experience": 0.1,
   "group": "tin_ingot",
   "ingredient": {
-    "item": "create_metal:crushed_raw_tin"
+    "item": "create:crushed_raw_tin"
   },
   "result": "create_metal:tin_ingot"
 }
